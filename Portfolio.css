@@ -1,88 +1,90 @@
-body,
-h1 {
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
   font-family: "Kanit", sans-serif;
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
-}
-.intro {
-  background-color: rgb(255, 213, 175);
-}
-.name {
-  padding-top: 20px;
+  width: auto;
+  height: auto;
 }
 
-.name > h1 {
+header {
+  background-image: linear-gradient(rgb(142,103,99), rgb(221,188,173), rgb(253,243,226));
+  padding: 30px 0 30px 30px;
+  align-items: center;
+}
+
+.portriat > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.name > h1{
   font-size: 70px;
   font-weight: bold;
 }
 
-.description {
-  border-bottom: 2px solid rgb(35, 20, 19);
+.search > div {
+  display: flex;
+  justify-content: space-between;
+  background-color: none;
 }
 
-.search {
-  padding-top: 10px;
+.nav {
+  width: 100%;
+  height: 60px;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.nav:hover {
+  background-color: rgb(249,236,219);
+  width: 100%;
+  border: 3px solid black;
+}
+
+.introduce {
+  padding: 40px 30px;
+  justify-content: space-between;
+  background-image: linear-gradient(rgba(255, 193, 202,0.7), rgb(253,243,226));
+}
+
+.introdetail {
+  padding: 20px 20px;
+  border: 4px solid antiquewhite;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.introdetail:hover {
+  box-shadow: 5px 10px #846f6f;;
 }
 
 .education {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid rgb(35, 20, 19);
-}
-.education > img {
-  border-radius: 10px;
-}
-
-.edu-content {
-  width: 350px;
-  height: 80px;
-  border-radius: 10px;
-  align-content: center;
-  justify-content: center;
-  background-color: rgb(255, 242, 226);
-}
-
-.skill {
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid rgb(35, 20, 19);
-}
-
-.skill > div > button {
-  width: 150px;
-  height: 60px;
-  background-color: rgb(255, 242, 226);
-  border-radius: 20px;
-  border: none;
-}
-
-.interesting > div > button {
-  width: 220px;
-  height: 40px;
-  background-color: rgb(255, 242, 226);
-  border-radius: 20px;
-  border: none;
+  row-gap: 10px;
 }
 
 .past_career {
-  padding-top: 20px;
-  background-color: antiquewhite;
-  height: 500px;
-  padding-bottom: 20px;
+  padding: 20px 20px;
+  height: auto;
+  overflow: hidden;
+  background-image: linear-gradient(rgb(219, 125, 108),rgb(225,177,165), rgb(253,243,226));
 }
 
-.career_pic {
-  display: flex;
-  padding-top: 5px;
-  justify-content: end;
-}
 
-.career_pic > div > img {
-  border-top: 15px solid white;
-  border-left: 8px solid white;
-  border-right: 8px solid white;
-  border-bottom: 20px solid white;
-}
 
 .present {
   background-color: rgba(195, 99, 75, 0.5);
