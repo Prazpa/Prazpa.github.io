@@ -1,0 +1,104 @@
+body,
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.intro {
+  background-color: rgb(255, 213, 175);
+}
+.name {
+  padding-top: 20px;
+}
+
+.name > h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.description {
+  border-bottom: 2px solid rgb(35, 20, 19);
+}
+
+.search {
+  padding-top: 10px;
+}
+
+.education {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(35, 20, 19);
+}
+.education > img {
+  border-radius: 10px;
+}
+
+.edu-content {
+  width: 350px;
+  height: 80px;
+  border-radius: 10px;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(255, 242, 226);
+}
+
+.skill {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(35, 20, 19);
+}
+
+.skill > div > button {
+  width: 150px;
+  height: 60px;
+  background-color: rgb(255, 242, 226);
+  border-radius: 20px;
+  border: none;
+}
+
+.interesting > div > button {
+  width: 220px;
+  height: 40px;
+  background-color: rgb(255, 242, 226);
+  border-radius: 20px;
+  border: none;
+}
+
+.past_career {
+  padding-top: 20px;
+  background-color: antiquewhite;
+  height: 500px;
+  padding-bottom: 20px;
+}
+
+.career_pic {
+  display: flex;
+  padding-top: 5px;
+  justify-content: end;
+}
+
+.career_pic > div > img {
+  border-top: 15px solid white;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  border-bottom: 20px solid white;
+}
+
+.present {
+  background-color: rgba(195, 99, 75, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-body{
+  background-color: rgba(255, 242, 226, 0.674);
+}
+
+footer {
+  height: 40px;
+  background-color: rgba(88, 67, 69, 0.66);
+}
+
+.logo {
+  padding-top: 20px;
+}

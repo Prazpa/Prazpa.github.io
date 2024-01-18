@@ -1,0 +1,306 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    margin: 0;  
+}
+
+aside {
+    background: black;
+    padding: 20px 40px;
+    margin: auto auto;
+}
+
+header {
+    margin: auto auto;
+    height: 725px;
+    padding: 0 80px;
+    background-image: url(Airbnb_Clone_Resource/Background_Image.webp);
+}
+
+/* first nav */
+
+/*logo*/ 
+.logo {
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+
+/* nav-bar(center) */
+
+.nav-c > a {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.nav-c > a:hover {
+    border-bottom: 1px solid white;
+}
+
+/*nav-bar(right-hand)*/
+
+.nav-r {
+    text-align: end;
+    margin-top: 10px;
+}
+
+.nav-r > a {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.nav-r > span {
+    padding: 10px 10px;
+}
+
+.nav-r > a:hover {
+    background-color: rgba(121, 163, 185, 0.5);
+    border-radius: 20px;
+}
+
+.nav_button {
+    height: 42px;
+    width: 77px;
+    border: none;
+    border-radius: 110px; 
+    ;
+}
+
+.earth > span > svg {
+    margin-bottom: 5px;
+    margin-left:  5px;
+}
+
+.line {
+    margin-top: 10px;
+}
+
+/* second-nav */
+
+.second-nav {
+    margin: auto;
+    border-radius: 120px;
+    height: 66px;
+    width: 850px;
+    margin-top: 20px;
+    
+}
+
+.second-nav> div> a > .text-secondnav1 {
+    margin-left: 40px;
+}
+
+.second-nav> div> a > .text-secondnav2 {
+    margin-left: 30px;
+}
+
+.second-nav> div> a > .text-secondnav3 {
+    margin-left: 30px;
+}
+
+.second-nav> div> a > .text-secondnav4 {
+    margin-left: 25px;
+}
+
+.second-nav > div {
+    width: 13rem;
+    border-right: 1px solid #dadada;
+}
+  
+.second-nav >:nth-child(1) {
+    width: 18rem;
+}
+  
+.second-nav>:nth-child(4) {
+    width: 11rem;
+    border: none;
+}
+  
+.second-nav>:nth-child(5) {
+    width: 4.5rem;
+    border: none;
+}
+  
+.second-nav>:nth-child(5):hover {
+    background: none;
+}
+  
+.second-nav > div * {
+    width: 70%;
+    margin: auto;
+    border: none;
+    text-align: left;
+}
+  
+.second-nav > div:hover {
+    padding: 10px 0;
+    background-color: #e7e7e7;
+    border-radius: 110px;
+    cursor: pointer;
+}
+  
+.second-nav input {
+    background: transparent;
+    font-size: 16px; 
+}
+  
+.search_button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fa215b;
+}
+  
+.search_button:hover {
+    background-color: #DC0E64;
+}
+
+/*Text in img*/
+.ads_word {
+    height: 625px;
+}
+
+.ads_word > span {
+    width: 400px;
+    font-size: 55px;
+}
+
+.ads_word > button {
+    width: 155px;
+    height: 32px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+/*province*/
+.province {
+    height: 170px;
+    padding: 0 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.province-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.province > ul > a {
+    text-decoration: none;
+}
+
+.word {
+    padding-left: 10px;
+}
+
+
+/* Accomadations */
+.accomodations {
+    height: 342px;
+}
+
+.accomodations-pic > img {
+    width: 263px;
+    height: 263px;
+    border-radius: 10px;   
+}
+
+.accomodations-pic > span {
+    font-size: 18px;
+}
+
+/* Unique Experiences */
+
+.h2-word > h2 {
+    font-size: 32px;
+}
+
+.h2-word > span {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.unique {
+    padding: 50px 80px;
+}
+
+.unique_experiences-pic {
+    padding: 5px;
+}
+
+.unique_experiences-pic > img {
+    height: 355px;
+    width: 355px;
+    border-radius: 10px;
+}
+
+/* Be Airbnb */
+.be_airbnb {
+    height: 315px;
+    padding: 0 80px;
+    margin: 50px 0;
+}
+
+.head-word {
+    font-size: 32px;
+}
+.be_airbnb-pic > img {
+    width: 355px;
+    height: 237px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* footer */
+footer {
+    height: 385px;    
+}
+
+.q_and_a { 
+    background-color: rgb(247,247,247);
+    padding: 50px 80px;
+    border-top: 1px solid rgba(128, 128, 128, 0.388);
+}
+
+.text > span {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.text > a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.text > a:hover {
+    text-decoration: underline;
+}
+
+.coppyright {
+    padding: 0 80px;
+}
+
+.lang > a {
+    font-size: 14px;
+    color: black;
+}
+
+.social > a > img {
+    width: 16px;
+    height: 16px;
+}
+
+
