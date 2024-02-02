@@ -36,36 +36,36 @@ body {
 .search-1 > a:hover {
   border: 1px solid rgb(188, 186, 186, 0.7);
   border-radius: 30px;
+  background-color: #5b4f50;
 }
 
 .info {
-  padding-top: 112px;
+  padding-top: 80px;
+  height: 600px;
   overflow: hidden;
 }
 
 .info > img {
-  width: 800px;
-  height: 748px;
+  width: 45%;
 }
 
 .blacked {
   padding-left: 50px;
-  width: 60%;
-  height: 748px;
+  width: 55%;
 }
 
 .blacked > h1 {
   font-style: normal;
   font-weight: 500;
-  font-size: 150px;
+  font-size: 90px;
   width: 600px;
 }
 
 .blacked > p{
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  width: 900px;
+  font-size: 30px;
+  width: 80%;
 }
 
 .introduce {
