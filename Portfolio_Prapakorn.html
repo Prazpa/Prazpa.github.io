@@ -12,14 +12,14 @@
 <body>
     <header>
         <nav class="search-1 d-flex position-fixed">
-            <a href="">All</a>
-            <a href="">About</a>
-            <a href="">Career</a>
-            <a href="">Project</a>
+            <a href="#sec1">All</a>
+            <a href="#sec2">About</a>
+            <a href="#sec3">Career</a>
+            <a href="#sec4">Project</a>
         </nav>
     </header>
 
-    <section class="info d-flex">
+    <section class="info d-flex" id="sec1">
         <img src="Asset/Portfolio_pic/1.JPG">
         <div class="blacked bg-black text-white">
             <h1>Hi,I'm Prapakorn Makchan</h1>
@@ -28,7 +28,7 @@
         </div>
     </section>
 
-    <section class="introduce d-flex">
+    <section class="introduce d-flex" id="sec2">
         <div class="aboutme introdetail d-flex flex-column">
             <h3>About Me</h3>
             <span>Name: Prapakorn</span>
@@ -36,7 +36,7 @@
             <span>Nickname: Bew</span>
             <span>Age: 24</span>
             <span>Location: Bangkok, Thailand</span>
-            <button>Resume</button>
+            <button><a href="Asset/Resume.pdf" target="_blank">Resume</a></button>
         </div>
 
         <div class="education introdetail">
@@ -51,7 +51,7 @@
             </div>
 
             <div class="edu-content d-flex">
-                <img src="Asset/Portfolio_pic/Chulalongkorn_University_Official_Logo.svg.png" width="75px"
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Chulalongkorn_University_emblem.svg/1200px-Chulalongkorn_University_emblem.svg.png" width="75px"
                     height="120px">
                 <div class="d-flex flex-column" style="padding-left: 15px;">
                     <span>B.Sc. Chulalongkorn University</span>
@@ -80,6 +80,7 @@
                             d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z"
                             fill="#FFF" />
                     </svg> HTML</span>
+                <hr>
                 <span>
                     <svg width="60px" height="60px" viewBox="-52.5 0 361 361" xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="xMidYMid">
@@ -95,6 +96,7 @@
                             d="M202.127 188.636l5.765-64.641H127.89v31.937h45.002l-2.906 32.704H127.89v31.937h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576z"
                             fill="#FFF" />
                     </svg> CSS</span>
+                <hr>
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" aria-label="JavaScript"
                         role="img" viewBox="0 0 512 512">
@@ -102,6 +104,8 @@
                         <path
                             d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z" />
                     </svg> JavaScript</span>
+                <hr>
+                
                 <span>
                     <svg width="60px" height="60px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -117,14 +121,16 @@
         <div class="interesting introdetail">
             <h3>Interesting</h3>
             <span>Front-End Developer</span>
+            <hr>
             <span>Web Developer</span>
+            <hr>
             <span>Web Cloning</span>
+            <hr>
             <span>Responsive Web Design</span>
-            <span>UX/UI Design</span>
         </div>
     </section>
 
-    <section class="career">
+    <section class="career" id="sec3">
         <h1>Career: Chemist</h1>
         <p>
             I have the opportunity to take on the role of a chemist specializing in the petroleum and
