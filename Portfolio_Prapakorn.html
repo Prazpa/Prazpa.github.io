@@ -10,27 +10,27 @@
 
 </head>
 
-<body>
-    <header>
-        <nav class="search-1 d-flex position-fixed">
-            <a href="">All</a>
-            <a href="">About</a>
-            <a href="">Career</a>
-            <a href="">Project</a>
+<body class="container-xxl">
+    <!-- <header> -->
+        <nav class="search-1 d-flex row">
+            <a href="#sec1" class="col-3">All</a>
+            <a href="#sec2" class="col-3">About</a>
+            <a href="#sec3" class="col-3">Career</a>
+            <a href="#sec4" class="col-3">Project</a>
         </nav>
-    </header>
+    <!-- </header> -->
 
-    <section class="info d-flex">
-        <img src="Asset/Portfolio_pic/1.JPG">
-        <div class="blacked bg-black text-white">
+    <section class="info d-flex row" id="sec1">
+        <img src="Asset/Portfolio_pic/1.JPG" class="col-6">
+        <div class="blacked bg-black text-white col-6">
             <h1>Hi,I'm Prapakorn Makchan</h1>
             <p>A 24-year-old individual actively seeking an opportunity to embark on a career in the field of
                 technology.</p>
         </div>
     </section>
 
-    <section class="introduce d-flex">
-        <div class="aboutme introdetail d-flex flex-column">
+    <section class="introduce d-flex row" id="sec2">
+        <div class="aboutme introdetail d-flex flex-column col-xl-3 col-md-6">
             <h3>About Me</h3>
             <span>Name: Prapakorn</span>
             <span>Surname: Makchan</span>
@@ -40,7 +40,7 @@
             <button><a href="Asset/Resume.pdf" target="_blank">Resume</a></button>
         </div>
 
-        <div class="education introdetail">
+        <div class="education introdetail col-xl-3 col-md-6">
             <h3>Education</h3>
             <div class="edu-content d-flex">
                 <img src="Asset/Portfolio_pic/Westride logo.png" width="80px" height="85px"
@@ -63,7 +63,7 @@
 
         </div>
 
-        <div class="skill introdetail">
+        <div class="skill introdetail col-xl-3 col-md-6">
             <h3>Skill</h3>
             <div class="d-flex flex-column">
                 <span>
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="interesting introdetail">
+        <div class="interesting introdetail col-xl-3 col-md-6">
             <h3>Interesting</h3>
             <span>Front-End Developer</span>
             <hr>
@@ -131,8 +131,8 @@
         </div>
     </section>
 
-    <section class="career">
-        <div class="career-info">
+    <section class="career row" id="sec3">
+        <div class="career-info col-7">
             <h1>Career: Chemist</h1>
             <p>
                 I have the opportunity to take on the role of a chemist specializing in the petroleum and
@@ -149,7 +149,7 @@
 
             <button onclick="ranquote()">Random Quote</button>
         </div>
-        <div class="career-img">
+        <div class="career-img col-5">
             <img id="pictures" src="Asset/Portfolio_pic/4.JPG" width="450px" height="400px">
             <div class="slice-bin">
                 <button id="back-btn" onclick="n--; change_pic();" disabled>back</button>
@@ -159,7 +159,7 @@
 
     </section>
 
-    <section class="project">
+    <section class="project row" id="sec4">
         <div class="project-info">
             <h1>Project</h1>
             <p>
@@ -172,7 +172,7 @@
             <p class="fw-bold"> Here is my project!</p>
         </div>
 
-        <div class="projectList1 container">
+        <div class="projectList1">
             <h2>freeCodeCamp.org</h2>
             <a href="https://www.freecodecamp.org/certification/fcccdc96294-fc9b-401d-ad54-c5ba73e5b679/responsive-web-design"
                 target="_blank">View Responsive Web Design Certification</a>
@@ -186,9 +186,7 @@
                         <h5>Technical Documentation Page</h5>
                         <p>Detailed information about JavaScript is provided on the Technical
                             Documentation Page website.</p>
-                        <a href="Websource/freecodecamp_JSDoc/Technical.html" 
-                            target="_blank" 
-                            class="btn btn-dark">Read
+                        <a href="Websource/freecodecamp_JSDoc/Technical.html" target="_blank" class="btn btn-dark">Read
                         </a>
                     </div>
                 </div>
@@ -219,7 +217,7 @@
             </div>
         </div>
 
-        <div class="projectList2 container">
+        <div class="projectList2">
             <h2>WeStride</h2>
 
             <div class="project-w">
@@ -227,10 +225,10 @@
                     <img src="Asset/Portfolio_pic/project-1.png" width="400px" height="500px">
                     <div class="project-w-text">
                         <h5>Airbnb Cloning</h5>
-                        <p>Exploring and delving into the intricate process of replicating the functionalities and design elements of the Airbnb website for the purpose of creating a duplicate or similar digital platform.</p>
-                        <a href="Websource/Airbnb/CloneAirbnb.html" 
-                            target="_blank" 
-                            class="btn btn-dark">Read
+                        <p>Exploring and delving into the intricate process of replicating the functionalities and
+                            design elements of the Airbnb website for the purpose of creating a duplicate or similar
+                            digital platform.</p>
+                        <a href="Websource/Airbnb/CloneAirbnb.html" target="_blank" class="btn btn-dark">Read
                         </a>
                     </div>
                 </div>
@@ -240,11 +238,11 @@
                         <img src="Asset/Portfolio_pic/project-2.png" width="400px" height="200px">
                         <div class="project-w-text">
                             <h5>X(Twitter) Cloning</h5>
-                            <p>Delving into replicating the Twitter website's UX/UI involves closely studying and mimicking its distinctive design, interactive elements, and overall user experience for the purpose of creating a similar digital interface.</p>
-                            <a href="Websource/Twitter/CloneTwiter.html" 
-                            target="_blank" 
-                            class="btn btn-dark">Read
-                        </a>
+                            <p>Delving into replicating the Twitter website's UX/UI involves closely studying and
+                                mimicking its distinctive design, interactive elements, and overall user experience for
+                                the purpose of creating a similar digital interface.</p>
+                            <a href="Websource/Twitter/CloneTwiter.html" target="_blank" class="btn btn-dark">Read
+                            </a>
                         </div>
                     </div>
 
@@ -253,12 +251,11 @@
                         <div class="project-w-text">
                             <h5>Formlogin Cloning</h5>
                             <p>
-                                Replicating the UI design for a login form cloning project involves closely mimicking the visual elements and layout of an existing authentication form.
+                                Replicating the UI design for a login form cloning project involves closely mimicking
+                                the visual elements and layout of an existing authentication form.
                             </p>
-                            <a href="Websource/Formlogin/Cloneformlogin.html" 
-                            target="_blank" 
-                            class="btn btn-dark">Read
-                        </a>
+                            <a href="Websource/Formlogin/Cloneformlogin.html" target="_blank" class="btn btn-dark">Read
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -274,10 +271,9 @@
                     <div class="project-s-text">
                         <h5>Spotify Cloning</h5>
                         <p>
-                            Undertaking the emulation or recreation of the Sportify platform involves replicating its features, functionalities, and overall design to create a similar digital experience.</p>
-                        <a href="Websource/SportifyCloneProject/index.html" 
-                            target="_blank" 
-                            class="btn btn-dark">Read
+                            Undertaking the emulation or recreation of the Sportify platform involves replicating its
+                            features, functionalities, and overall design to create a similar digital experience.</p>
+                        <a href="Websource/SportifyCloneProject/index.html" target="_blank" class="btn btn-dark">Read
                         </a>
                     </div>
                 </div>
