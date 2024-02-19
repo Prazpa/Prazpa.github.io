@@ -1,19 +1,17 @@
 * {
   margin: 0px;
   padding: 0px;
-  
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Microsoft Sans Serif';
-  max-width: 1400px;
 }
 
 .search-1 {
   height: 80px;
   background: linear-gradient(180deg, #080808 0%, rgba(0, 0, 0, 0.99) 100%);
   position: fixed;
-  width: 100%;
 }
 
 .search-1 > a {
@@ -22,7 +20,7 @@ body {
 
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 1.563rem;
 
   background: linear-gradient(180deg, #FFFEFD 0%, rgba(255, 255, 255, 0) 100%);
   -webkit-background-clip: text;
@@ -32,44 +30,51 @@ body {
   align-self: center;
   text-align: center;
   justify-content: center;
+  border: none;
   padding-top: 15px;
 }
 
 .search-1 > a:hover {
-  border: 1px solid rgb(188, 186, 186, 0.7);
-  border-radius: 30px;
-  background-color: #5b4f50;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid white;
 }
 
 .info {
-  height: auto;
+  height: 580px;
   padding-top: 80px;
   background-color: #080808;
+  overflow: hidden;
 }
 
-.info > img {
-  height: 500px;
+.blacked {
+  padding-left: 40px;
 }
-
 
 .blacked > h1 {
   font-style: normal;
   font-weight: 500;
-  font-size: 90px;
+  font-size: 4.625rem;
+}
 
+.word {
+  margin: auto;
+  color: white;
+  font: 700 normal 2.5em 'Microsoft Sans Serif';
+  text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
 .blacked > p{
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 1.325rem;
 }
 
 .introduce {
   background-color: #1A1011;
   padding: 80px 22px;
   justify-content: space-around;
-  height: auto;
+  height: 580px;
 }
 
 .introdetail {
@@ -84,7 +89,7 @@ body {
   padding-top: 32px;
   font-style: normal;
   font-weight: 600;
-  font-size: 32x;
+  font-size: 32px;
 }
 
 .aboutme > span{
@@ -122,6 +127,22 @@ body {
 
   color: white;
   overflow: hidden
+}
+
+.skill {
+  overflow-y: scroll;
+}
+
+.skill::-webkit-scrollbar {
+  background-color: rgb(213,154,124);
+  width: 0.5px;
+  height: 70%;
+  border-radius: 100px;
+}
+
+.skill::-webkit-scrollbar-thumb {
+  background-color: rgb(26,16,17); 
+  border-radius: 0.2px;
 }
 
 .skill > div > span {
