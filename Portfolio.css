@@ -71,10 +71,11 @@ body {
 }
 
 .introduce {
+  display: flex;
   background-color: #1A1011;
   padding: 80px 22px;
   justify-content: space-around;
-  height: 580px;
+  height: auto
 }
 
 .introdetail {
@@ -310,3 +311,167 @@ body {
   padding: 20px;
 }
 
+@media (max-width: 992px) {
+  .aboutme > span {
+    font-size: 22px;
+  }
+
+  .aboutme > button {
+    margin-top: 100px;
+  }
+
+  .edu-content > div > span {
+    font-size: 16px;
+  }
+
+  .skill > div > span {
+    font-size: 25px;
+  }
+
+  .skill > div {
+    margin-left: -20px;
+  }
+
+  .interesting > span {
+    font-size: 25px;
+  }
+
+  .career >.career-info > h1 {
+    font-size: 50px;
+  }
+
+  .career >.career-info > p {
+    font-size: 25px;
+  }
+
+  .career >.career-info > q {
+    font-size: 25px;
+  }
+
+  .project > .project-info > h1 {
+    font-size: 50px;
+  }
+
+  .project > .project-info > p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blacked > h1 {
+    font-size: 3.625rem;
+  }
+
+  .blacked > .word {
+    font-size: 1.625rem;
+  }
+
+  .info {
+    height: 425px;
+  }
+
+  .introduce {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    row-gap: 20px;
+  }
+
+  .introdetail {
+    width: 100%;
+  }
+
+  .aboutme > span {
+    font-size: 25px;
+  }
+
+  .edu-content > div > span {
+    font-size: 20px;
+  }
+
+  .skill > div > span {
+    font-size: 25px;
+  }
+
+  .skill > div {
+    margin-left: 20px;
+  }
+
+  .interesting > span {
+    font-size: 25px;
+  }
+
+  .career >.career-info > h1 {
+    font-size: 50px;
+  }
+
+  .career >.career-info > p {
+    font-size: 25px;
+  }
+
+  .career >.career-info > q {
+    font-size: 25px;
+  }
+
+  .project > .project-info > h1 {
+    font-size: 50px;
+  }
+
+  .project > .project-info > p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blacked > h1 {
+    font-size: 2.625rem;
+  }
+
+  .introduce {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    row-gap: 20px;
+  }
+
+  .aboutme > span {
+    font-size: 23px;
+  }
+
+  .edu-content > div > span {
+    font-size: 20px;
+  }
+
+  .skill > div > span {
+    font-size: 25px;
+    margin-left: -20px;
+  }
+
+  .interesting > span {
+    font-size: 23px;
+  }
+
+  .career >.career-info > h1 {
+    font-size: 40px;
+  }
+
+  .career >.career-info > p {
+    font-size: 16px;
+  }
+
+  .career >.career-info > q {
+    font-size: 16px;
+  }
+
+  .project > .project-info > h1 {
+    font-size: 40px;
+  }
+
+  .project > .project-info > p {
+    font-size: 16px;
+  }
+
+  .project-w {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+  }
+} 
