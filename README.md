@@ -4,5 +4,5 @@ I am Prapakorn. I have generated this file to provide an introduction about myse
 For those who are currently reviewing this document, kindly initiate the cloning process of this Git repository. 
 Upon completion, you will have access to a comprehensive overview containing 100% of the details.
 
-If you want to see content just open Portfolio_Prapakorn.html 
+If you want to see content just open Index.html or https://prazpa.github.io.
 
